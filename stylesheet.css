@@ -1,4 +1,5 @@
-body {margin:0;}
+body {margin:0;
+	background-color: #4CAF50;}
 
 ul {
   list-style-type: none;
@@ -10,6 +11,7 @@ ul {
   top: 0;
   width: 100%;
   height: 5%;
+  z-index: 1;
 }
 
 .logo img {
@@ -21,7 +23,7 @@ ul {
 li {
 	position: relative;
 	float: left;
-	
+		
 }
 
 li a {
@@ -30,6 +32,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  z-index: 1;
 }
 
 li a:hover:not(.active) {
@@ -40,56 +43,80 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+/* VIDEO */
+
+.video {
+	position: relative;
+    margin: 100px;
+    top: 30%;
+    left: 24%;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+/* MAIN PICTURE */
+
+.mainpic img {
+	position: relative;
+	bottom: 168vh;
+	float: left;
+	left: 39vw;
+	width: 15vw;
+height: auto;}
+
+/* GALLERI 1 */
+
+div.gallery {
+	position: relative;
+	display: block;
+	margin: 50px;
+	left: 2vw;
+	bottom: 70vh;
+	width: 180px
+	}
+
+/* GALLERI 2 */
+
+div.gallery2 {
+	position: relative;
+	display: block;
+	margin: 50px;
+	bottom: 150vh;
+	left: 71vw;
+	width: 180px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+div.gallery3 {
+	position: relative;
+	bottom: 168vh;
+	float: left;
+	left: 30vw;
+	height: 100px;
+	width: auto;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+
+div.gallery img {
+  width: 20vw;
+  height: auto;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+
+div.gallery2 img {
+  width: 20vw;
+  height: auto;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+div.gallery3 img {
+  width: 15vw;
+  height: 18vh;
 }
+
+div.mainpic img {
+  width: 15vw;
+  height: 18vh;
+}
+
